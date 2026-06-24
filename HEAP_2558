@@ -1,0 +1,19 @@
+class Solution {
+    public long pickGifts(int[] gifts, int k) {
+      PriorityQueue<Integer> maxHeap=new PriorityQueue<>(Collections.reverseOrder());
+      for(int num:gifts){
+            maxHeap.offer(num);
+        }
+         while(k > 0){
+            int maxGift = maxHeap.poll();
+            int reduced = (int)Math.sqrt(maxGift);
+            maxHeap.offer(reduced);
+            k--;
+        }
+        long ans = 0;
+        while(!maxHeap.isEmpty()){
+            ans += maxHeap.poll();
+        }
+        return ans;
+    }
+}
