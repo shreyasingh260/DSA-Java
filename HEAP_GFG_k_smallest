@@ -1,0 +1,13 @@
+class Solution {
+    public int kthSmallest(int[] arr, int k) {
+        PriorityQueue<Integer> minHeap= new PriorityQueue<>();
+        for(int num : arr){
+            minHeap.offer(num);
+        }
+        while(k>1){
+            int reduce = minHeap.poll();
+            k--;
+        }
+        return minHeap.peek();
+    }
+}
