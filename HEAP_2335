@@ -1,0 +1,24 @@
+class Solution {
+    public int fillCups(int[] amount) {
+    PriorityQueue <Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+       for(int num:amount){
+        maxHeap.offer(num);
+       }
+        int time = 0;
+        while(maxHeap.size() > 1){
+            int first = maxHeap.poll();
+            int second = maxHeap.poll();
+            first--;
+            second--;
+            if(first > 0)
+                maxHeap.offer(first);
+            if(second > 0)
+                maxHeap.offer(second);
+            time++;
+        }
+        if(!maxHeap.isEmpty()){
+            time += maxHeap.poll();
+        }
+        return time;
+    }
+}
