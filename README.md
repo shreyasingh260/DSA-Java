@@ -1,92 +1,80 @@
-# DSA-Java
-My Data Structures and Algorithms practice in Java.
+# DSA Practice
 
-This repository contains my solutions to Data Structures and Algorithms problems in Java. It is created to improve problem-solving skills, strengthen Java concepts, and prepare for coding interviews and internship opportunities.
+A collection of my **Data Structures and Algorithms (DSA)** practice problems and solutions, primarily implemented in **Java**.
 
----
+This repository is focused on building strong problem-solving skills, improving algorithmic thinking, and preparing for coding interviews and technical assessments.
 
-## About This Repository
+## Topics Covered
 
-This repository includes:
+* Arrays
+* Strings
+* Hashing
+* Two Pointers
+* Sliding Window
+* Searching
+* Sorting
+* Prefix Sum
+* Linked Lists
+* Stacks & Queues
+* Recursion
+* Trees
+* Graphs
+* Dynamic Programming
 
-* Topic-wise DSA questions
-* LeetCode solutions
-* GeeksforGeeks problems
-* Interview preparation questions
-* Optimized approaches wherever possible
+## Repository Structure
 
-
----
-
-## Platforms Used
-
-* LeetCode
-* GeeksforGeeks
-* HackerRank
-* Codechef
-
----
-
-## Goals
-
-* Improve coding skills
-* Build strong DSA concepts
-* Practice Java programming
-* Prepare for placements and internships
-* Solve problems consistently
-* Learn optimal approaches
-
----
-
-## Language Used
-
-* Java
-
----
-
-## How to Run
-
-1. Clone the repository
-2. Open it in your IDE
-3. Compile and run any Java file
-
-```bash
-git clone <repository-link>
-cd DSA-Java
-javac FileName.java
-java FileName
+```text
+DSA-Practice/
+│
+├── Arrays/
+├── Strings/
+├── Hashing/
+├── Two-Pointers/
+├── Sliding-Window/
+├── Searching/
+├── Sorting/
+├── Linked-List/
+├── Stack-Queue/
+├── Trees/
+├── Graphs/
+└── Dynamic-Programming/
 ```
 
+The structure may evolve as I cover more topics.
+
+## Approach
+
+For each problem, I try to focus on:
+
+1. Understanding the problem
+2. Identifying the appropriate data structure or algorithm
+3. Developing an efficient approach
+4. Implementing the solution in Java
+5. Analyzing time and space complexity
+6. Improving the solution when possible
+
+## Example Problems
+
+| Problem                    | Topic   | Difficulty |
+| -------------------------- | ------- | ---------- |
+| Two Sum                    | Hashing | Easy       |
+| Contains Duplicate         | Hashing | Easy       |
+| Intersection of Two Arrays | Hashing | Easy       |
+| Merge Sorted Array         | Arrays  | Easy       |
+| Longest Common Prefix      | Strings | Easy       |
+
+## Language
+
+**Java**
+
+## Goal
+
+The goal of this repository is to consistently practice DSA, strengthen problem-solving skills, and build a solid foundation for **coding interviews and competitive programming**.
+
+## Progress
+
+I regularly update this repository as I solve new problems and learn new DSA concepts.
+
 ---
 
-## Sample Problem Naming Format
-
-```bash
-01_TwoSum.java
-02_BinarySearch.java
-03_ReverseLinkedList.java
-04_Permutations.java
-```
-
----
-
-## Future Plans
-
-* Add more LeetCode problems
-* Add topic-wise notes
-* Add optimized solutions
-* Add important interview questions
-* Add comments for better understanding
-
----
-
-## Author
-
-Shreya Singh
-
-B.Tech CSE Student
-Aspiring Software developer
-
----
-
-If you find this repository useful, feel free to star it.
+**Keep learning. Keep solving. Keep improving.**
